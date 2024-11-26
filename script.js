@@ -2,7 +2,8 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // Initialize Supabase
 const supabaseUrl = 'https://lnxyjtpnvowbptbonzht.supabase.co';
-const supabaseKey = 'your-supabase-key';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxueHlqdHBudm93YnB0Ym9uemh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgwMjg2ODksImV4cCI6MjA0MzYwNDY4OX0.Aznwb14FQvRrOMlsVqzLReFSwuJ66HZ4Y_Tq0Dvm5Is';
+
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Telegram Web App
