@@ -1,5 +1,4 @@
-// Separate Game Logic for Matching Cards Game
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 
 // Initialize Supabase
 const supabaseUrl = 'https://lnxyjtpnvowbptbonzht.supabase.co';
