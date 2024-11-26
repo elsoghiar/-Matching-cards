@@ -14,6 +14,23 @@ body {
   height: 100vh;
 }
 
+
+/* إزالة تأثير التركيز */
+button, input, select, textarea, img, a {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
 .game-container {
   text-align: center;
 }
